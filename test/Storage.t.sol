@@ -2,9 +2,9 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../src/Counter.sol";
+import "../src/Storage.sol";
 
-contract CounterTest is Test {
+contract StorageTest is Test {
     Storage public counter;
 
     function setUp() public {
